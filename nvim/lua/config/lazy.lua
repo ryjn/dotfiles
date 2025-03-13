@@ -54,6 +54,15 @@ require("lazy").setup({
   },
 })
 
+--require("cmp").setup({
+--mapping = cmp.mapping.preset.insert({
+--   ["<C-e>"] = cmp.mapping.abort(),
+--["<Tab>"] = cmp.mapping.select_next_item(),
+--["<S-Tab>"] = cmp.mapping.select_prev_item(),
+--["<CR>"] = cmp.mapping.confirm({ select = false }),
+--}),
+--})
+
 require("render-markdown").setup({
   -- Whether markdown should be rendered by default.
   enabled = true,
