@@ -1,0 +1,15 @@
+# DS Store
+.DS_Store
+
+# iTerm2
+iterm2
+
+# NeoVim
+nvim/LICENSE
+nvim/README.md
+nvim/stylua.toml
+nvim/.gitignore
+nvim/.neoconf.json
+
+# Tmux
+tmux/plugins
