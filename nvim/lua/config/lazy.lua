@@ -70,3 +70,14 @@ require("scrollEOF").setup({
   -- List of modes to disable scrollEOF for. see https://neovim.io/doc/user/builtin.html#mode()
   disabled_modes = {},
 })
+
+require("render-markdown").setup({
+  dash = {
+    enabled = true,
+    render_modes = false,
+    icon = "─",
+    width = "full",
+    left_margin = 0,
+    highlight = "RenderMarkdownDash",
+  },
+})
