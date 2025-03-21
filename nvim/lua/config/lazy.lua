@@ -80,4 +80,7 @@ require("render-markdown").setup({
     left_margin = 0,
     highlight = "RenderMarkdownDash",
   },
+  callout = {
+    todoNext = { raw = "[!TODONEXT]", rendered = "󰀪 Todo Next", highlight = "RenderMarkdownWarn" },
+  },
 })
